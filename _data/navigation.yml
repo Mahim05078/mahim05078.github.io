@@ -15,13 +15,13 @@
 main:
    
    - title: "Timeline"
-    url: /timeline/ 
+    url: /404/ 
 
   - title: "Projects"
-    url: /projects/   
+    url: /404/   
 
      - title: "Experience"
-    url: /experience/  
+    url: /404/  
 
   - title: "Teaching"
     url: /teaching/    
