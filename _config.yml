@@ -6,6 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+skin                     : "mint"
 locale                   : "en-US"
 title                    : "Welcome, Traveler! "
 title_separator          : "-"
