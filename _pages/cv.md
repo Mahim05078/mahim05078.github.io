@@ -11,32 +11,43 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.Sc. in Computer Science and Engineering, BUET (Running)
+* B.Sc. in Computer Science and Engineering, BUET, 2021
+* H.S.C from Chattogoram College,Chattogram Board, 2015
+* S.S.C from Chattogram Collegiate School, Chattogram Board
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* March 2022 - Present: Lecturer, Department of CSE
+  * United Inrternational University
+  * Duties included:
+    * Teaching Undergraduate Courses
+    * Student Advising
+    * FYDP Capstone Project Supervision
+    * Panel of Judges, CSE project Show.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* March 2021 -  Feb 2022: Software Engineer
+  * REVE Systems
+  * Full-stack web developer
+    * Java, JSP, Spring boot, vue js, mySQL, MongoDB, REST APIs
+  * Duties Includes:
+      * Implementing a semi-microservice based architecture on existing systems.
+      * Algorithmic optimization of pre-existing services.
+      * Developing application layer security protocols for finTech services.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* ***Programming:*** Java, C/C++, Python, PHP, Assembly, Matlab
+* ***DBMS:*** MySQL, MongoDB, Oracle
+* ***Scripting:*** HTML, CSS, Javascript, LATEX, Shell, bash, markdown
+* ***Packages:*** OpenCV, Pandas, Numpy, Scikit-learn
+* ***Frameworks:*** Spring, Laravel, Vue, React native, pyTorch, Tensorflow
+* ***Project Management::*** MySQL, MongoDB, Oracle
+* ***Version-Control::***Git, Bitbucket, Gitlab
+    
 
-Publications
+
+% Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -52,8 +63,8 @@ Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul>% 
   
-Service and leadership
+Co-Curricular Activities
 ======
 * Currently signed in to 43 different slack teams
