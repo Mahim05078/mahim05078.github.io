@@ -66,5 +66,6 @@ Teaching
   {% endfor %}</ul>
   
 Co-Curricular Activities -->
-======
-* Download my full cv from [here](https://github.com/Mahim05078/mahim05078.github.io/blob/master/files/AcademicCV.pdf).
+
+Download my full cv from <a id="raw-url" href="https://github.com/Mahim05078/mahim05078.github.io/blob/master/files/AcademicCV.pdf">here</a>.
+
