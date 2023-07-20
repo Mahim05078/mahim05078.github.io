@@ -42,12 +42,12 @@ Skills
 * ***Scripting:*** HTML, CSS, Javascript, LATEX, Shell, bash, markdown
 * ***Packages:*** OpenCV, Pandas, Numpy, Scikit-learn
 * ***Frameworks:*** Spring, Laravel, Vue, React native, pyTorch, Tensorflow
-* ***Project Management::*** MySQL, MongoDB, Oracle
-* ***Version-Control::***Git, Bitbucket, Gitlab
+* ***Project Management:*** MySQL, MongoDB, Oracle
+* ***Version-Control:*** Git, Bitbucket, Gitlab
     
 
 
-% Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -63,8 +63,8 @@ Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>% 
+  {% endfor %}</ul>
   
-Co-Curricular Activities
+Co-Curricular Activities -->
 ======
-* Currently signed in to 43 different slack teams
+* Download my full cv from [here](https://github.com/Mahim05078/mahim05078.github.io/blob/master/files/AcademicCV.pdf).
