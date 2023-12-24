@@ -17,43 +17,42 @@ Education
 
 Work experience
 ======
-* March 2022 - Present
+* (March 2022 - Present) -
    ***Lecturer, Department of CSE***, United Inrternational University
-  * United Inrternational University
   * Duties include:
     * Teaching undergraduate courses
     * Undergraduate student advising
     * FYDP capstone project supervision
     * Panel of judges, CSE project show.
 
-* March 2021 -  Feb 2022:
+* (March 2021 -  Feb 2022) -
    ***Software Engineer***, REVE Systems
   * Full-stack web developer
     * Java, JSP, Spring boot, vue js, MySQL, MongoDB, REST and SOAP APIs
-  * Duties Included:
+  * Duties included:
       * Implementing and deploying web applications on semi-microservice based architecture.
       * Algorithmic optimization of pre-existing services.
       * Developing application layer security protocols for finTech services.
   
 Skills
 ======
-* ***Programming:*** Java, C/C++, Python, PHP, Assembly,  
+* ***Programming:*** Java, C/C++, Python, PHP, Assembly
+* ***Testing frameworks/tools:*** Selenium, Appium, Junit, Postman, Apache Jmeter, Pytest, EvoSuite
 * ***DBMS:*** MySQL, MongoDB, Oracle
 * ***Scripting:*** HTML, CSS, Javascript, LATEX, Shell, bash, markdown
 * ***Packages:*** OpenCV, Pandas, Numpy, Scikit-learn
-* ***Frameworks:*** Spring, Laravel, Vue, React native, pyTorch, Tensorflow
+* ***Frameworks:*** Spring, Laravel, Vue, React native, Tensorflow
 * ***Project Management:*** Jira, Trello
 * ***Version-Control:*** Git, Bitbucket, Gitlab
     
 
-
+<!--
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-<!--
+  
 Talks
 ======
   <ul>{% for post in site.talks %}
