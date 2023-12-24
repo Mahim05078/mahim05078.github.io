@@ -17,7 +17,8 @@ Education
 
 Work experience
 ======
-* March 2022 - Present: ***Lecturer, Department of CSE***
+* March 2022 - Present
+   ***Lecturer, Department of CSE***, United Inrternational University
   * United Inrternational University
   * Duties include:
     * Teaching undergraduate courses
@@ -25,8 +26,8 @@ Work experience
     * FYDP capstone project supervision
     * Panel of judges, CSE project show.
 
-* March 2021 -  Feb 2022: ***Software Engineer***
-  * REVE Systems
+* March 2021 -  Feb 2022:
+   ***Software Engineer***, REVE Systems
   * Full-stack web developer
     * Java, JSP, Spring boot, vue js, MySQL, MongoDB, REST and SOAP APIs
   * Duties Included:
