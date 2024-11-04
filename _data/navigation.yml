@@ -14,14 +14,14 @@
     
 main:
    
-  - title: "Timeline"
-    url: /404/ 
+  - title: "Home"
+    url: /about/ 
 
-  - title: "Projects"
-    url: /404/   
+  - title: "Publication"
+    url: /publication/   
 
-  - title: "Experience"
-    url: /404/  
+  # - title: "Experience"
+  #   url: /404/  
 
   - title: "Teaching"
     url: /teaching/    
