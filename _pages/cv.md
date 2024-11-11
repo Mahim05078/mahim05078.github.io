@@ -67,5 +67,5 @@ Teaching
   
 Co-Curricular Activities -->
 
-Download my full cv from <a id="raw-url" href="http://mahim05078.github.io/files/AcademicCV.pdf">here</a>.
+Download my full cv from <a id="raw-url" href="http://mahim05078.github.io/files/CV_Md_Mohaiminul_Islam_Nov24.pdf">here</a>.
 
