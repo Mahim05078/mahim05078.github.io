@@ -1,10 +1,10 @@
 ---
 title: "Lecturer"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate courses"
 permalink: /teaching/2024-fall-teaching-1
 venue: "United International University, Department of Computer Science & Engineering"
-last updated: 2024-11-11
+date: 2024-11-11
 location: "Dhaka, bangladesh"
 ---
 
