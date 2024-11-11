@@ -10,7 +10,7 @@ redirect_from:
 
 Thank you for visiting my page. I am a Computer Science graduate and a research enthusiast. I am currently working on aligning Visual Language Models and Large Language models in general, with human values. The goal of my work is building a safer and more trustworthy AI ecosystem. I also have prior experience in distributed machine learning, specially federated learning architectures and their applications. Furthermore, I am interested in creating novel, safe human centric AI systems. 
 
-I am currently employed as a Lecturer at the department of Computer Science and Engineering at United International University. Before that, I was a Software Engineer at REVE systems for a year. I completed my B.Sc. in Computer Science and Engineering from **Bangladesh University of Engineering and Technology (BUET)** on February, 2021. I looking forward to expanding my horizons as a researcher and enrolling into a Ph.D. program. 
+I am currently employed as a Lecturer at the department of Computer Science and Engineering at United International University. Before that, I was a Software Engineer at REVE systems for a year. I completed my B.Sc. in Computer Science and Engineering from **Bangladesh University of Engineering and Technology (BUET)** on February, 2021. I am looking forward to expanding my horizons as a researcher. I am open to Ph.D. opportunities starting from Fall 2025. 
 
 # News 
 * Oct 27, 2024 : Our paper ***Divide2Conquer (D2C): A Decentralized Approach Towards Overfitting Remediation in Deep Learning*** has been accepted to be presented at IEEE International Conference of Big Data (BigData 24), Washington DC, USA. This year the acceptance rate was *19.7%*.
