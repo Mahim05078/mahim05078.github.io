@@ -7,7 +7,7 @@ venue: "United International University, Department of Computer Science & Engine
 date: 2024-11-11
 location: "Dhaka, bangladesh"
 ---
-[View course list](https://mahim05078.github.io/teaching/2024-fall-teaching-1)
+<a id="raw-url" href="https://mahim05078.github.io/teaching/2024-fall-teaching-1">View Full Course List</a>.
 
 Fall 2024
 ======
