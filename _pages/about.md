@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Thank you for visiting my page. I am a CS graduate and research enthusiast. My current topic of interest is aligning Visual Language Models and Large Language models in general with human values, working toward a safer and more trustworthy AI ecosystem. I have also prior experience in distributed machine learning and specially federated architectures and their applications. Furthermore, I am interested in working on developing secure human centric AI systems. 
+Thank you for visiting my page. I am a CS graduate and a CS research enthusiast. My currently working on aligning Visual Language Models and Large Language models in general, with human values. The goal of my work is building a safer and more trustworthy AI ecosystem. I also have prior experience in distributed machine learning, specially federated learning architectures and their applications. Furthermore, I am interested in creating novel, safe human centric AI systems. 
 
-I am currently working as a Lecturer at the department of Computer Science and Engineering at United International University. I have previously worked at REVE systems for a year. I completed my B.Sc. in Computer Science and Engineering from **Bangladesh University of Engineering and Technology (BUET)** on February, 2021. I looking forward to expanding my horizons as a researcher and enrolling into a Ph.D. program. 
+I am currently employed as a Lecturer at the department of Computer Science and Engineering at United International University. Before that, I was a Software Engineer at REVE systems for a year. I completed my B.Sc. in Computer Science and Engineering from **Bangladesh University of Engineering and Technology (BUET)** on February, 2021. I looking forward to expanding my horizons as a researcher and enrolling into a Ph.D. program. 
 
 # News 
 * Oct 27, 2024 : Our paper ***Divide2Conquer (D2C): A Decentralized Approach Towards Overfitting Remediation in Deep Learning*** has been accepted to be presented at IEEE International Conference of Big Data (BigData 24), Washington DC, USA. This year the acceptance rate was *19.7%*.
