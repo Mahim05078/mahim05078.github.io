@@ -13,6 +13,8 @@ Thank you for visiting my page. I am a Computer Science graduate and a research 
 I am currently employed as a Lecturer at the department of Computer Science and Engineering at United International University. Before that, I was a Software Engineer at REVE systems for a year. I completed my B.Sc. in Computer Science and Engineering from **Bangladesh University of Engineering and Technology (BUET)** on February, 2021. I am looking forward to expanding my horizons as a researcher. I am open to Ph.D. opportunities starting from Fall 2025. 
 
 # News 
+* Nov 24, 2024 : Please check out our paper ***An Extensive Study on D2C: Overfitting Remediation in Deep Learning Using a Decentralized Approach***, which is an extension of our previous ***D2C*** work. [[*preprint*]](https://arxiv.org/pdf/2411.15876)
+
 * Oct 27, 2024 : Our paper ***Divide2Conquer (D2C): A Decentralized Approach Towards Overfitting Remediation in Deep Learning*** has been accepted to be presented at IEEE International Conference of Big Data (BigData 24), Washington DC, USA. This year the acceptance rate was *19.7%*.
   
 * Sept 17, 2024 : I will be participating at the *B-TopSE Training of Trainers* program which is a joint technical program arranged by NIST, JICA from Japan and BCC, BASIS from Bangladesh. This is a 3 month long certificate program that plans to groom future trainers that will work to bridge the current gap between industry demand and graduates' skill level in Bangladesh.
