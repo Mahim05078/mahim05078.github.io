@@ -6,6 +6,9 @@ author_profile: true
 ---
 
 
+* ***An Extensive Study on D2C: Overfitting Remediation in Deep Learning Using a Decentralized Approach*** (Under review) [[preprint]](https://arxiv.org/pdf/2411.15876)
+  > Authors : M. S. B. Siddiqui, <ins>**M. M. Islam**</ins>, and M. G. R. Alam 
+
 * ***Divide2Conquer (D2C): A Decentralized Approach Towards Overfitting Remediation in Deep Learning***. In Proceedings of 2024 International Conference on Big Data (BigData), IEEE, Washington DC, USA, 2024. (Acceptance rate 19.7%)  [[paper]](https://mahim05078.github.io/files/bigD_d2c.pdf)
   > Authors : M. S. B. Siddiqui, <ins>**M. M. Islam**</ins>, and M. G. R. Alam 
   
