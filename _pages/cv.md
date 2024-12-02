@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Download my updated CV from <a id="raw-url" href="http://mahim05078.github.io/files/CV_Md_Mohaiminul_Islam_Nov24.pdf">here</a>.
+Download my updated CV from <a id="raw-url" href="http://mahim05078.github.io/files/CV_Md_Mohaiminul_Islam_Dec.pdf">here</a>.
 
 Education
 ======
