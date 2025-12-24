@@ -13,13 +13,19 @@ Download my updated CV from <a id="raw-url" href="http://mahim05078.github.io/fi
 
 Education
 ======
+* Ph.D. in Computer Science, ISU (Ongoing)
 * B.Sc. in Computer Science and Engineering, BUET, 2021
 * H.S.C from Chattogoram College,Chattogram Board, 2015
 * S.S.C from Chattogram Collegiate School, Chattogram Board
 
 Work experience
 ======
-* (March 2022 - Present) -
+* (August 2025 - Current) -
+   ***Graduate Teaching Assistant, CS***, Iowa State University
+  * Courses :
+    * COM S 2300
+  
+* (March 2022 - Aug 2025(On Leave)) -
    ***Lecturer, Department of CSE***, United Inrternational University
   * Duties include:
     * Teaching undergraduate courses

@@ -8,11 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Thank you for visiting my page. I am a Computer Science graduate and a research enthusiast. I am currently working on aligning Visual Language Models and Large Language models in general, with human values. The goal of my work is building a safer and more trustworthy AI ecosystem. I also have prior experience in distributed machine learning, specially federated learning architectures and their applications. Furthermore, I am interested in creating novel, safe human centric AI systems. 
+Thank you for visiting my page. I am a first year CS Ph.D. student at **Iowa State University**. I am currently working on building adaptive and drift-resistant ML models for cybersecurity applications. I have prior experience in security of Large Multimodal models, distributed machine learning and federated learning architectures and their applications. Furthermore, I am also interested in the security of Large Language Models in a wide array of applications.
 
-I am currently employed as a Lecturer at the department of Computer Science and Engineering at United International University. Before that, I was a Software Engineer at REVE systems for a year. I completed my B.Sc. in Computer Science and Engineering from **Bangladesh University of Engineering and Technology (BUET)** on February, 2021. I am looking forward to expanding my horizons as a researcher. I am open to Ph.D. opportunities starting from Fall 2025. 
+I have worked as a Graduate Teaching Assistant for the ISU CS department. Previously I was employed as a Lecturer at the department of Computer Science and Engineering at United International University. Even before that, I spent a year working as a Software Engineer at REVE systems. I completed my B.Sc. in Computer Science and Engineering from **Bangladesh University of Engineering and Technology (BUET)** on February, 2021. I look forward to expanding my horizons as a researcher. I am open to internship opportunities starting from Summer 2026. Please feel free to email me if you would like to have a chat or collaborate.
 
 # News 
+* Aug 25, 2025 : I am starting my Ph.D. in *Computer Science* at ***Iowa State University***. I am joining the **FIRE Lab** led by [Dr. Amit Kumar Sikder](https://www.cs.iastate.edu/people/amit-kumar-sikder). GO CYCLONES !!!
+
 * Nov 24, 2024 : Please check out our paper ***An Extensive Study on D2C: Overfitting Remediation in Deep Learning Using a Decentralized Approach***, which is an extension of our previous ***D2C*** work. [[*preprint*]](https://arxiv.org/pdf/2411.15876)
 
 * Oct 27, 2024 : Our paper ***Divide2Conquer (D2C): A Decentralized Approach Towards Overfitting Remediation in Deep Learning*** has been accepted to be presented at IEEE International Conference of Big Data (BigData 24), Washington DC, USA. This year the acceptance rate was *19.7%*.
@@ -33,11 +35,11 @@ Many of the features of dynamic content management systems (like Wordpress) can 
 Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+2. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
+3. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+4. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+5. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+6. Check status by going to the repository settings, in the "GitHub pages" section
 
 Site-wide configuration
 ------
