@@ -2,12 +2,21 @@
 title: "Lecturer"
 collection: teaching
 type: "Undergraduate courses"
-permalink: /teaching/2024-fall-teaching-1
+permalink: /teaching/UIU
 venue: "United International University, Department of Computer Science & Engineering"
 date: 2024-11-11
-location: "Dhaka, bangladesh"
+location: "Dhaka, Bangladesh"
 ---
-<a id="raw-url" href="https://mahim05078.github.io/teaching/2024-fall-teaching-1">View Full Course List</a>.
+<a id="raw-url" href="https://mahim05078.github.io/teaching/UIU">View Full Course List</a>.
+
+
+
+Spring 2025
+======
+  1. Software Testing and Quality Assurance
+  2. Object Oriented Programming language Laboratory
+  3. Green Computing
+  4. Data Structures and Algorithms I
 
 Fall 2024
 ======

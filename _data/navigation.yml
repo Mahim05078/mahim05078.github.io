@@ -20,8 +20,8 @@ main:
   - title: "Publication"
     url: /publications/   
 
-  # - title: "Experience"
-  #   url: /404/  
+  - title: "Projects"
+    url: /404/  
 
   - title: "Teaching"
     url: /teaching/    

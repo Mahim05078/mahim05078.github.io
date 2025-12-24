@@ -83,11 +83,11 @@ analytics:
 author:
   name             : "Md Mohaiminul Islam"
   avatar           : "pp.JPG"
-  bio              : "B.Sc. in CSE, Bangladesh University of Engineering and Technology(BUET)"
-  location         : "Dhaka-1212"
-  employer         : Lecturer, United International University
+  bio              : "CS PhD Student@ISU | BSc in CSE@BUET"
+  location         : "Ames, Iowa, USA"
+  employer         : GTA, ISU
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : # "http://yourfullgooglescholarurl.com"
+  googlescholar    : https://scholar.google.com/citations?user=4-5CEbkAAAAJ&hl=en&oi=ao
   email            : mohaiminmahim@gmail.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
