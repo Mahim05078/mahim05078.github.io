@@ -24,7 +24,7 @@ A framework extending LLM-based malware variant generation to multi-platform env
 
 **System Architecture**
 
-<div class="mermaid">
+```mermaid
 flowchart TD
     A[(Malware Source)] --> B[Multi-Platform Ingestion]
     B --> C[Platform-Aware AST Parser]
@@ -32,15 +32,11 @@ flowchart TD
     D --> E[Prompt Engineering]
     E --> F[DeepSeek-Coder-v2 LLM]
     F --> G[Syntactic Validation]
-    G --> H{Compile OK?}
+    G --> H{Compile OK}
     H -->|No| G
     H -->|Yes| I[Recompiler]
     I --> J[(AV Evaluation)]
-
-    style A fill:#e1f5fe
-    style F fill:#fff3e0
-    style J fill:#e8f5e9
-</div>
+```
 
 **Report**: [Download PDF](/files/projects/mmislam_Final_project_report.pdf)  
 **Presentation**: [Watch Video](/files/projects/mmislam_Final_Presentation.mp4)
@@ -58,21 +54,17 @@ Sequence-to-sequence models for generating concise paper titles from scientific 
 
 **System Architecture**
 
-<div class="mermaid">
+```mermaid
 flowchart TD
     A[(Abstract Text)] --> B[Prompt Template]
-    B --> C[T5 / Flan-T5 Encoder]
+    B --> C[T5 Flan-T5 Encoder]
     C --> D[Encoder Hidden States]
-    D --> E[T5 Decoder - Beam Search]
+    D --> E[T5 Decoder Beam Search]
     E --> F[Generated Title Tokens]
     F --> G[Detokenizer]
     G --> H[(Predicted Title)]
-    H --> I[BLEU / ROUGE Evaluation]
-
-    style A fill:#e1f5fe
-    style C fill:#fff3e0
-    style H fill:#e8f5e9
-</div>
+    H --> I[BLEU ROUGE Evaluation]
+```
 
 **Report**: [Download PDF](/files/projects/Project_3_report_mmislam.pdf)
 
@@ -89,13 +81,13 @@ Binary classification of scientific abstracts using transformer models, addressi
 
 **System Architecture**
 
-<div class="mermaid">
+```mermaid
 flowchart TD
-    A[(Title + Abstract)] --> B[Prompt Formatter]
-    B --> C[Tokenizer 512 tokens]
+    A[(Title and Abstract)] --> B[Prompt Formatter]
+    B --> C[Tokenizer]
     C --> D[BERT Baseline]
-    C --> E[DeBERTa-v3 + Focal]
-    C --> F[PubMedBERT + Curriculum]
+    C --> E[DeBERTa-v3]
+    C --> F[PubMedBERT]
     D --> G[Logits]
     E --> H[Logits]
     F --> I[Logits]
@@ -104,13 +96,7 @@ flowchart TD
     I --> J
     J --> K[Threshold Tuning]
     K --> L[(Final Prediction)]
-
-    style A fill:#e1f5fe
-    style D fill:#fff3e0
-    style E fill:#fff3e0
-    style F fill:#fff3e0
-    style L fill:#e8f5e9
-</div>
+```
 
 **Report**: [Download PDF](/files/projects/Project_2_report_mmislam.pdf)
 
@@ -127,12 +113,12 @@ An end-to-end pipeline for extracting and evaluating multi-word phrases from a l
 
 **System Architecture**
 
-<div class="mermaid">
+```mermaid
 flowchart TD
-    A[(Raw Corpus)] --> B[Tokenizer / Cleaner]
+    A[(Raw Corpus)] --> B[Tokenizer Cleaner]
     B --> C[N-gram Generator]
     C --> D[Naive Greedy]
-    C --> E[PMI + TF-IDF + NP]
+    C --> E[PMI TF-IDF NP]
     C --> F[BioBERT Embeddings]
     D --> G[Phrase Candidates]
     E --> H[Phrase Candidates]
@@ -143,13 +129,7 @@ flowchart TD
     J --> K[Phrase-Tagged Corpus]
     K --> L[Word2Vec Retraining]
     L --> M[(Similarity Evaluation)]
-
-    style A fill:#e1f5fe
-    style D fill:#fff3e0
-    style E fill:#fff3e0
-    style F fill:#fff3e0
-    style M fill:#e8f5e9
-</div>
+```
 
 **Report**: [Download PDF](/files/projects/Project_1_report_mmislam.pdf)  
 **Presentation**: [Watch Video](/files/projects/mmislam_Final_Presentation.mp4)
