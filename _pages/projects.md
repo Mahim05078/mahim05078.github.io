@@ -20,22 +20,22 @@ A framework extending LLM-based malware variant generation to multi-platform env
 - Extended the LLMalMorph framework with multi-platform support for Windows (C/C++) and Android (Java/Kotlin/Smali) malware sources.
 - Introduced Android-specific prompt engineering strategies preserving component lifecycles, manifest registrations, and permission models.
 - Integrated DeepSeek-Coder-v2-16B-Instruct for superior code transformation; implemented automated syntactic validation and error recovery pipelines.
-- Evaluated on 6 Windows malware families and Android samples; achieved improved AV evasion rates via VirusTotal and Hybrid Analysis.
+- Evaluated on 4 Windows malware families and 1 Android project and 1 APK; achieved similar AV evasion rates compared to SOTA.
 
 **System Architecture**
 
 <div class="mermaid">
 flowchart TD
-    A[("🗂️ Malware Source<br/>(C/C++/Java/Smali/APK)")] --> B["Multi-Platform Ingestion"]
-    B --> C["Platform-Aware AST Parser"]
-    C --> D["Function Extraction &<br/>Metadata Cache"]
-    D --> E["Platform-Specific Prompt<br/>Engineering + Strategy"]
-    E --> F["🤖 DeepSeek-Coder-v2<br/>LLM Transformation"]
-    F --> G["Syntactic Validation &<br/>Error Recovery"]
-    G --> H{"Compile<br/>Success?"}
+    A[(Malware Source)] --> B[Multi-Platform Ingestion]
+    B --> C[Platform-Aware AST Parser]
+    C --> D[Function Extraction]
+    D --> E[Prompt Engineering]
+    E --> F[DeepSeek-Coder-v2 LLM]
+    F --> G[Syntactic Validation]
+    G --> H{Compile OK?}
     H -->|No| G
-    H -->|Yes| I["Built-in Recompiler<br/>(EXE / APK)"]
-    I --> J[("📊 AV Evasion Evaluation<br/>(VirusTotal)")]
+    H -->|Yes| I[Recompiler]
+    I --> J[(AV Evaluation)]
 
     style A fill:#e1f5fe
     style F fill:#fff3e0
@@ -60,14 +60,14 @@ Sequence-to-sequence models for generating concise paper titles from scientific 
 
 <div class="mermaid">
 flowchart TD
-    A[("📄 Abstract Text")] --> B["Prompt Template"]
-    B --> C["T5 / Flan-T5 Encoder"]
-    C --> D["Encoder Hidden States"]
-    D --> E["T5 Decoder<br/>(Beam Search)"]
-    E --> F["Generated Title Tokens"]
-    F --> G["Detokenizer"]
-    G --> H[("📝 Predicted Title")]
-    H --> I["BLEU / ROUGE<br/>Evaluation"]
+    A[(Abstract Text)] --> B[Prompt Template]
+    B --> C[T5 / Flan-T5 Encoder]
+    C --> D[Encoder Hidden States]
+    D --> E[T5 Decoder - Beam Search]
+    E --> F[Generated Title Tokens]
+    F --> G[Detokenizer]
+    G --> H[(Predicted Title)]
+    H --> I[BLEU / ROUGE Evaluation]
 
     style A fill:#e1f5fe
     style C fill:#fff3e0
@@ -91,19 +91,19 @@ Binary classification of scientific abstracts using transformer models, addressi
 
 <div class="mermaid">
 flowchart TD
-    A[("📄 Title + Abstract")] --> B["Prompt Formatter"]
-    B --> C["Tokenizer<br/>(512 tokens)"]
-    C --> D["BERT Baseline"]
-    C --> E["DeBERTa-v3<br/>+ Focal Loss"]
-    C --> F["PubMedBERT<br/>+ Curriculum"]
-    D --> G["Logits"]
-    E --> H["Logits"]
-    F --> I["Logits"]
-    G --> J["Probability Averaging<br/>Ensemble"]
+    A[(Title + Abstract)] --> B[Prompt Formatter]
+    B --> C[Tokenizer 512 tokens]
+    C --> D[BERT Baseline]
+    C --> E[DeBERTa-v3 + Focal]
+    C --> F[PubMedBERT + Curriculum]
+    D --> G[Logits]
+    E --> H[Logits]
+    F --> I[Logits]
+    G --> J[Ensemble Averaging]
     H --> J
     I --> J
-    J --> K["Threshold Tuning"]
-    K --> L[("🎯 Final Prediction")]
+    J --> K[Threshold Tuning]
+    K --> L[(Final Prediction)]
 
     style A fill:#e1f5fe
     style D fill:#fff3e0
@@ -129,20 +129,20 @@ An end-to-end pipeline for extracting and evaluating multi-word phrases from a l
 
 <div class="mermaid">
 flowchart TD
-    A[("📚 Raw Corpus")] --> B["Tokenizer / Cleaner"]
-    B --> C["N-gram Generator"]
-    C --> D["Naive Greedy"]
-    C --> E["PMI + TF-IDF + NP"]
-    C --> F["BioBERT Embeddings"]
-    D --> G["Phrase Candidates"]
-    E --> H["Phrase Candidates"]
-    F --> I["Semantic Clusters"]
-    G --> J["Merge & Rank"]
+    A[(Raw Corpus)] --> B[Tokenizer / Cleaner]
+    B --> C[N-gram Generator]
+    C --> D[Naive Greedy]
+    C --> E[PMI + TF-IDF + NP]
+    C --> F[BioBERT Embeddings]
+    D --> G[Phrase Candidates]
+    E --> H[Phrase Candidates]
+    F --> I[Semantic Clusters]
+    G --> J[Merge and Rank]
     H --> J
     I --> J
-    J --> K["Phrase-Tagged Corpus"]
-    K --> L["Word2Vec Retraining<br/>(Skip-gram)"]
-    L --> M[("📊 Similarity Evaluation")]
+    J --> K[Phrase-Tagged Corpus]
+    K --> L[Word2Vec Retraining]
+    L --> M[(Similarity Evaluation)]
 
     style A fill:#e1f5fe
     style D fill:#fff3e0
